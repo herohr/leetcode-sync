@@ -2,6 +2,7 @@ class Tree:
     def __init__(self, word):
         self.sons = []
         self.word = word
+        self.val = self.word
         self.broke = False
 
     def add_son(self, tree):
